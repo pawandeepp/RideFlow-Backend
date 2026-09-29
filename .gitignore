@@ -1,1 +1,41 @@
-/.vs
+# Build output (the cause of your problem)
+[Bb]in/
+[Oo]bj/
+
+# Visual Studio
+.vs/
+*.user
+*.suo
+*.userprefs
+
+# Test and coverage results
+[Tt]est[Rr]esult*/
+TestResults/
+*.trx
+coverage/
+*.coverage
+*.coveragexml
+
+# NuGet
+*.nupkg
+*.snupkg
+packages/
+
+# Logs
+*.log
+
+# Secrets and local config (very important)
+appsettings.Development.json
+appsettings.Local.json
+secrets.json
+.env
+.env.*
+*.pfx
+
+# Rider / VS Code
+.idea/
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
