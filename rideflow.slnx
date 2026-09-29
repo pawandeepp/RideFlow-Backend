@@ -1,2 +1,13 @@
 <Solution>
+  <Folder Name="/src/" />
+  <Folder Name="/src/Services/" />
+  <Folder Name="/src/Services/Ride/">
+    <Project Path="src/Services/Ride/Ride.Api/Ride.Api.csproj" />
+    <Project Path="src/Services/Ride/Ride.Application/Ride.Application.csproj" />
+    <Project Path="src/Services/Ride/Ride.Domain/Ride.Domain.csproj" />
+    <Project Path="src/Services/Ride/Ride.Infrastructure/Ride.Infrastructure.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/Ride.Domain.Tests/Ride.Domain.Tests.csproj" />
+  </Folder>
 </Solution>

@@ -1,0 +1,18 @@
+[
+  {
+    "ContainingType": "Ride.Api.Controllers.RideController",
+    "Method": "RequestRide",
+    "RelativePath": "api/Ride/RequestRide",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "request",
+        "Type": "Ride.Api.Models.RequestRideRequest",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
